@@ -1,0 +1,50 @@
+body {
+    background-color: #f1f5f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 40px;
+    border: none;
+    color: #373838;
+    border: 5px solid #373838;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0px 20px 0px 20px;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: #373838;
+    color: #f1f5f8;
+}
+
+#siteName {
+    color: #102b42;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#countOutput {
+    font-size: 100px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    color: #102b42;
+}
+
